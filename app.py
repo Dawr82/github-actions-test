@@ -13,5 +13,10 @@ def api():
         "Surname": "Skorupa",
     }
 
+@app.route("/faulty")
+def faulty()
+    return 0
+
+
 if __name__ == "__main__":
     app.run()

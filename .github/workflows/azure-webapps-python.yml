@@ -5,8 +5,7 @@ env:
   PYTHON_VERSION: '3.9'            
 
 on:
-  release:
-    types: [published]
+  push:
 
 jobs:
   build:
